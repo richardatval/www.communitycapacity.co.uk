@@ -1,0 +1,70 @@
+sass:
+  style: compressed
+
+#  Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+
+#  Site settings
+title: Community Capacity Building
+description: Making positive community change possible
+url: http://www.greatleicester.org.uk
+baseurl:
+email: info@greatleicester.org.uk
+github: aylestoneallotments/www.aylestoneallotments.co.uk
+logo_path: /img/logo.svg
+copyright: "Children's Workforce Matters is a project of Voluntary Action Leicester. Voluntary Action Leicester is a registered charity (No. 509300) Company Limited by Guarantee (No. 1357513) Registered in England and Wales."
+
+#  Social media settings
+
+facebook: "voluntaryactionleics"
+twitter : "valonline"
+instagram: ""
+permalink: pretty
+
+# Services
+
+analyticstracking: " "
+
+# Pagination
+
+paginate: 5
+paginate_path: "/news/:num/"
+
+#  Timezone
+timezone: Europe/London
+
+exclude: ['bower.json']
+
+# Conditional Stylesheets
+
+conditionalstylesheets:
+  - target: "ie9"
+    path: "/css/ie9.css"
+
+#  Configuration for prose.io online editor
+prose:
+  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','_config.yml','bower.json']
+  media: img
+  metadata:
+    _posts:
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: false
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"

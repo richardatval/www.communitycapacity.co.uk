@@ -1,0 +1,15 @@
+<div class="box box-default">
+<h2>Latest News</h2>
+<ul class="item-list">
+{% for post in site.posts limit:3 %}
+  <li>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% if forloop.last %}
+{% if forloop.index == 3 %}
+<a class="readmore" href="{{ site.baseurl }}/news">more</a>
+{% endif %}
+</ul>
+{% endif %}
+{% endfor %}
+</div>

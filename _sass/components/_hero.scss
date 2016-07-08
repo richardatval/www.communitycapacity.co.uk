@@ -1,0 +1,96 @@
+.hero {  
+$base-border-radius: 3px !default;
+$action-color: #477DCA !default;
+$hero-background-top: #7F99BE; 
+$hero-background-bottom: #20392B;
+$hero-color: $base-font-color;
+$hero-background-color: #B6E0F1;
+$gradient-angle: 10deg;
+$hero-image: '#{"" + $image-directory}/hero-home.jpg';
+@include background(url($hero-image));
+background-position: center top ;
+background-repeat: no-repeat;
+background-color: $hero-background-color;
+background-size: auto 100%;
+
+.page-early-help-training & {
+	background-image: url('#{"" + $image-directory}/hero-early-help.jpg');
+}
+
+.hero-inner {
+	@include outer-container;
+	@include clearfix;
+	text-align: left;
+	padding-top: 320px;
+	.hero-copy {
+		background: #fff;
+		padding: $gutter;
+		border-bottom: 1px solid #eee;
+		h1 {
+			color: $brand-primary;
+			line-height: 1.1em;
+			a {
+				color: $brand-primary;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		p {
+			color: $hero-color;
+			line-height: 1.4em;
+		}
+	}
+}
+
+@include media($tablet) {
+	background-position: left top;
+	.hero-inner {
+		margin: auto auto auto 50%;
+		padding: $gutter;
+		min-height: 300px;
+		.hero-copy {
+			@include animation-delay(2s);
+			@include animation(scale 1.0s ease-in, slide 2.0s ease);
+			text-align: left;
+			padding: $gutter;
+			box-shadow: #2d373b 0 1px 15px;
+      
+			h1 {
+				font-size: 1.6em;
+				margin-bottom: 0.5em;
+			}
+		}
+	}
+}
+
+@include media($desktop) {
+	.hero-inner {
+		margin: auto auto auto 50%;
+		padding: $gutter;
+		min-height: 400px;
+		.hero-copy {
+			padding: $gutter * 2;
+			h1 {
+				font-size: 2.4em;
+			}
+			p {
+				font-size: 1.1em
+			}
+		}
+	}
+}
+
+@each $name, $color in $colors {
+	&.#{"" + $name} {
+		.hero-copy {
+			h1, h1 a {
+				color: $color;
+			}
+			.button {
+				@extend button.#{"" + $name}
+			}
+		}
+	}
+}
+}

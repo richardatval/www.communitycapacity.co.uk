@@ -1,0 +1,21 @@
+---
+layout: no-sidebars
+title: Upcoming Events
+---
+
+<noscript>
+<div class="calendar-fallback">
+	<ul class="item-list">
+		{% for post in site.data.events | sort 'start'%}
+		<li event event-{{ forloop.index }}>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+			{{ post.start | date_to_string }}
+		</li>
+		{% if forloop.last %}
+	</ul>
+	{% endif %}
+	{% endfor %}
+</div>
+</noscript>
+<div id='calendar'>
+</div>

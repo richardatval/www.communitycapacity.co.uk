@@ -1,0 +1,132 @@
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  background: $base-background-color;
+}
+
+// Links
+a {
+  &:link, &:visited {
+    color: $brand-primary;
+    text-decoration: none;
+  }
+}
+
+a {
+  &:hover, &:active {
+    color: darken($brand-primary, 10%);
+    text-decoration: underline;
+  }
+}
+
+// Titles.
+#site-name {
+	display: none;
+  font-size: 2.2em;
+  line-height: 1.1em;
+  font-weight: 300;
+  padding: 0 0 0.5em;
+  margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: 700;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+h1 {
+    font-size: modular-scale(4);
+	&.title {
+		margin-bottom: 0;
+	}
+}
+h2 {
+	font-size: modular-scale(3);
+}
+
+h3 {
+	font-size: modular-scale(2);
+}
+
+h4 {
+	font-size: modular-scale(1);
+}
+
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+address {
+	background: lighten($brand-primary, 50%);
+	border-left: 7px solid $brand-primary;
+	padding: $gutter;
+	font-style: normal;
+	margin-bottom: 1em;
+}
+
+blockquote {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 100%;
+	display: block;
+	color: $brand-primary;
+	line-height: 1.5em;
+	font-size: modular-scale(1);
+	padding-left: 2.5em;
+	padding-right: $gutter;
+	position: relative;
+	&::before {
+	    content: "\201C"; /*Unicode for Left Double Quote*/
+	    font-family: $helvetica;
+	    font-size: 60px;
+	    font-weight: bold;
+	    position: absolute;
+	    left: 10px;
+	    top: 27px;
+	}
+}

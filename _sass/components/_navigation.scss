@@ -1,0 +1,430 @@
+header.navigation {
+	background-color: $navigation-background;
+	border-bottom: 1px solid darken($navigation-background, 10);
+	min-height: $navigation-height;
+	width: 100%;
+	z-index: 999;
+
+	.branding-wrapper {
+		background: #fff;
+		z-index: 1000;
+		.branding {
+		@include clearfix;
+		@include outer-container;
+	}
+	}
+
+	li.expanded, li.collapsed, li.leaf {
+		padding: 0;
+	}
+
+	.navigation-wrapper, .search-tools {
+		@include clearfix;
+		@include outer-container;
+		position: relative;
+	}
+
+	.navigation-wrapper {
+		z-index: 500;
+	}
+
+	// Mobile view
+
+	.navigation-menu-button {
+		text-indent: -10000px;
+		color: $navigation-color;
+		display: block;
+		float: right;
+		line-height: $navigation-height;
+		margin: 0;
+		padding-right: 1em;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		li.expanded, li.collapsed, li.leaf {
+			padding: 0;
+		}
+
+		@include media ($horizontal-bar-mode) {
+			display: none;
+		}
+
+		&:focus,
+		&:hover {
+			color: $navigation-color-hover;
+		}
+	}
+
+	// Nav menu
+
+	nav {
+		float: none;
+		min-height: $navigation-height;
+		z-index: 9999999;
+
+		@include media ($horizontal-bar-mode) {
+			float: left;
+			padding-left: $gutter;
+		}
+	}
+
+	ul.navigation-menu {
+		clear: both;
+		display: none;
+		margin: 0 auto;
+		overflow: visible;
+		padding: 0;
+		width: 100%;
+		z-index: 9999;
+		font-weight: bold;
+
+		&.show, .no-js & {
+			display: block;
+		}
+
+		@include media ($horizontal-bar-mode) {
+			display: inline;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+
+	// The nav items
+
+	ul li.nav-link {
+		background: darken($navigation-background, 7%);
+		border-top: 1px solid darken($navigation-background, 11%);
+		display: block;
+		line-height: $navigation-height;
+		overflow: hidden;
+		text-align: left;
+		width: 100%;
+		z-index: 9999;
+
+		@include media($horizontal-bar-mode)  {
+			&:focus,
+			&:hover {
+				> a {
+				background: $navigation-nav-button-background-hover;
+			}
+			}
+			border-top: none;
+			background: transparent;
+			display: inline;
+			text-decoration: none;
+			width: auto;
+		}
+
+		a {
+			color: $navigation-color;
+			display: inline-block;
+			text-decoration: none;
+			width: 100%;
+			padding-left: $gutter;
+			padding-right: $navigation-submenu-padding;
+			@include media ($horizontal-bar-mode) {
+				padding-left: $navigation-submenu-padding;
+				width: auto;
+			}
+
+			&:focus,
+			&:hover {
+				font-weight: bold;
+				color: $navigation-color-hover;
+				background: darken($navigation-background, 10%);
+				@include media($horizontal-bar-mode) {
+					background: $navigation-nav-button-background-hover;
+				}
+			}
+
+		}
+	}
+
+	.active-nav-item a {
+		border-bottom: 1px solid $navigation-active-link-color;
+		padding-bottom: 3px;
+	}
+
+
+	// Sub menus
+
+	li.more.nav-link {
+		padding-right: 0;
+		@include media($horizontal-bar-mode) {
+
+		}
+
+		> ul > li:first-child a  {
+			@include media($horizontal-bar-mode) {
+				padding-top: 1em;
+			}
+		}
+
+		a {
+			text-align: left;
+		}
+
+		> a {
+			@include media($horizontal-bar-mode) {
+				margin-right: 0;
+				padding-right: $navigation-submenu-padding + 18px;
+				&:after {
+					font-family: $helvetica;
+					content: '\25BE';
+					color: $navigation-color;
+					@include position(absolute, -0.2em 0.5em  auto auto);
+				}
+			}
+
+		}
+	}
+
+	li.more {
+		overflow: visible;
+		padding-right: 0;
+
+		a {
+			@include media($horizontal-bar-mode) {
+				padding-right: 0.8em;
+			}
+		}
+
+		> a {
+			padding-right: $navigation-submenu-padding;
+			position: relative;
+
+			@include media($horizontal-bar-mode) {
+				margin-right: $navigation-submenu-padding;
+			}
+
+			&:after {
+				content: '›';
+				font-size: 1.2em;
+				position: absolute;
+				right: $navigation-submenu-padding / 2;
+			}
+		}
+
+		&:focus > .submenu,
+		&:hover > .submenu {
+			display: block;
+		}
+
+		@include media($horizontal-bar-mode) {
+			padding-right: $navigation-submenu-padding;
+			position: relative;
+		}
+	}
+
+	ul.submenu {
+		display: none;
+		padding-left: 0;
+		padding-bottom: 0;
+
+		@include media($horizontal-bar-mode) {
+			left: 0;
+			position: absolute;
+			top: $navigation-height -2px;
+		}
+
+		.submenu {
+			@include media($horizontal-bar-mode) {
+				left: $navigation-submenu-width - 0.2em;
+				top: 0;
+			}
+
+			li a {
+
+				&:before {
+					padding-left: $navigation-submenu-padding;
+					content: " - ";
+				}
+				@include media($horizontal-bar-mode) {
+					&:before {
+						padding-left: 0;
+						content: "";
+					}
+				}
+			}
+		}
+
+		li {
+			display: block;
+			padding-right: 0;
+
+			@include media($horizontal-bar-mode) {
+				line-height: $navigation-height / 1.3;
+
+				&:first-child > a {
+					border-top-left-radius: $base-border-radius;
+					border-top-right-radius: $base-border-radius;
+				}
+
+				&:last-child > a {
+					border-bottom-left-radius: $base-border-radius;
+					border-bottom-right-radius: $base-border-radius;
+					padding-bottom: 0.7em;
+				}
+
+			}
+
+			a {
+				font-weight: normal;
+				&:before {
+					padding-left: 10px;
+					content: " - ";
+				}
+				background: darken($navigation-background, 7%);
+				display: inline-block;
+				text-align: left;
+				width: 100%;
+				border-top: 1px solid darken($navigation-background, 11%);
+
+				&:hover, &:focus {
+					background: darken($navigation-background, 10%);
+					@include media($horizontal-bar-mode) {
+						background-color: $navigation-nav-button-background-hover;
+					}
+				}
+
+				@include media($horizontal-bar-mode) {
+					&:before {
+						content: "";
+						padding-left: 0;
+					}
+					border-color: $navigation-nav-button-background-hover;
+					border-bottom: none;
+					background-color: $navigation-nav-button-background-hover;
+					padding-left: $navigation-submenu-padding;
+					text-align: left;
+					width: $navigation-submenu-width;
+				}
+			}
+		}
+	}
+
+
+	// Elements on the far right
+
+	.search-tools {
+		display: none;
+		&.show {
+			display: block;
+		}
+		clear: both;
+		height: $navigation-height;
+	}
+
+	.search-tools-wrapper {
+		background: darken($navigation-background, 10%);
+	}
+
+
+	// Search bar
+
+	.search-bar {
+		$search-bar-border-color: $base-border-color;
+		$search-bar-border: 1px solid $search-bar-border-color;
+		$search-bar-background: lighten($search-bar-border-color, 10%);
+		width: 97%;
+		padding: 0.67em 0;
+		position: relative;
+		font-size: 0.7em;
+
+		form.search-form {
+			padding: 0 20px 0 15px;
+			input[type="submit"] {
+				width: 20%;
+				position: absolute;
+				top: 0.5em;
+				padding: 0.67em 0;
+				right: 0;
+			}
+
+			input[type="text"] {
+				width: 80%;
+			}
+		}
+	}
+}
+
+$navigation-small-image-width: 290px;
+$navigation-small-image-ratio: $navigation-small-image-width/$logo-image-width;
+$navigation-small-image-height: $logo-image-height*$navigation-small-image-ratio;
+
+$navigation-medium-image-width: 500px;
+$navigation-medium-image-ratio: $navigation-medium-image-width/$logo-image-width;
+$navigation-medium-image-height: $logo-image-height*$navigation-medium-image-ratio;
+
+a.logo {
+	margin: $gutter;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -99999px;
+	background-size: $navigation-small-image-width $navigation-small-image-height;
+	width: $navigation-small-image-width;
+	height: $navigation-small-image-height;
+	@include media(600px) {
+		background-size: $navigation-medium-image-width $navigation-medium-image-height;
+		width: $navigation-medium-image-width;
+		height: $navigation-medium-image-height;
+	}
+	background-image:url('#{"" + $image-directory}/logo.png');
+}
+
+.navigation-menu-button {
+	background-image:url('#{"" + $image-directory}/navigation-button.svg');
+	.no-svg & {
+		background-image: url('#{"" + $image-directory}/navigation-button.png');
+	}
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 50px;
+	@include media ($small-screen) {
+		width: $navigation-height;
+	}
+	@include hide-text;
+	&.active {
+		background-color: $navigation-nav-button-background-hover;
+	}
+}
+
+#js-search-toggle {
+	&.show {
+		display: block;
+	}
+}
+
+.navigation-search-button {
+	.no-js & {
+		display: none;
+	}
+	background-image:url('#{"" + $image-directory}/search-button.svg');
+	.no-svg & {
+		background-image: url('#{"" + $image-directory}/search-button.png');
+	}
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 43px;
+	@include media (em(350px)){
+	width: 50px;
+	}
+	@include media ($small-screen) {
+		width: $navigation-height;
+	}
+	@include hide-text;
+	display: block;
+	float: right;
+	line-height: $navigation-height;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	&:hover, &:focus, &.active {
+		background-color: $navigation-nav-button-background-hover;
+	}
+}

@@ -1,0 +1,36 @@
+---
+title: News
+layout: news
+summary: Latest news from the Aylestone Allotment Society.
+---
+
+{% for post in paginator.posts %}
+<div class="teaser">
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  <div class="content">
+	{% if post.summary == null %}
+    {{ post.content | strip_html | truncatewords: 25 }}
+	{% else %}
+	{{ post.summary }}
+	{% endif %}
+	<a href="{{ site.baseurl }}{{ post.url }}">read more</a>
+  </div>
+</div>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <ul>
+  {% if paginator.previous_page %}
+    <li><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a></li>
+  {% else %}
+  {% endif %}
+  {% for item in (1..paginator.total_pages) %}
+  <li><a {% if paginator.page == item %}class="active" href="#"{% else %} href="{{ site.baseurl }}/news{% if item != 1%}/{{ item }}{% endif %}"{% endif %}>{{item}}</a></li>
+  {% endfor %}
+  {% if paginator.next_page %}
+    <li><a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a></li>
+  {% else %}
+  {% endif %}
+  </ul>
+</div>
+{% endif %}

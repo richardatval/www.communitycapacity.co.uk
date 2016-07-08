@@ -1,0 +1,20 @@
+  # This file contains details of people in the organisation.
+  #
+  # Options:
+  # - name: "name of the person"
+  #   img: "path to picture of person relative baseurl"
+  #   role: "role of person within organisation"
+  #   phone: "telephone number"
+  #   email: "email address of person"
+  #   website: "personal website of person"
+  #   bio: "a paragraph of text explaining the persons background"
+  - name: "Wendy Bricket"
+    img: "/img/profiles/profile-placeholder.gif"
+    role: "Chair"
+    email: "wendy.b@valonline.org.uk"
+    bio: "Here is some bio information here is some bio information Here is some bio information here is some bio information. Here is some bio information here is some bio information Here is some bio information here is some bio information. Here is some bio information here is some bio information Here is some bio information here is some bio information."
+  - name: "Heather Roythorne Finch"
+    img: "/img/profiles/profile-placeholder.gif"
+    role: "Secretary"
+    phone: "Profile phone"
+    email: "heather.rf@valonline.org.uk"

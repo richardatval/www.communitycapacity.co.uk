@@ -1,0 +1,14 @@
+#contact-form {
+	.no-js & {
+		display: none;
+	}
+}
+
+.page-contact .flash-success {
+	display: none;
+}
+
+label.error {
+  background: lighten($red, 40%);	
+  padding: 1em;
+}
