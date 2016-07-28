@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$('#js-search-toggle').attr({
 			href: "javascript:void(0)"
 		});
-		$('#js-search-toggle').addClass("show");4V7EJ-RU3N1-D2LS2-A04E1-150WP
+		$('#js-search-toggle').addClass("show");
 		$('#js-search-toggle').click(function() {
 			$(".search-tools").toggle();
 			$('#js-search-toggle').toggleClass('active');
