@@ -1,0 +1,41 @@
+---
+# Layouts must stay in HTML
+---
+{% include header.html %}
+
+<div class="page-location">
+<main role="main" class="page-content  no-sidebars">
+	<div  class="scene_element scene_element--fadein">
+		<div class="container">
+			<h1 class="title">{{ page.title }}</h1>
+			<section id="content">
+				<h4>{{ page.summary}}</h4>
+				{{ content }}
+			</section>
+		</div>
+	</div>
+</main>
+<section class="band" id="projects">
+	<div class="container">
+		<h2>Projects in {{ page.location }}</h2>
+		{% for post in site.posts %}{% if post.location contains page.location %}
+		<div class="teaser-wrapper">
+			<div class="teaser">
+				<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.primary-image }}"></a>
+				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+				<div class="content">
+					{% if post.summary == null %}
+					{{ post.content | strip_html | truncatewords: 15 }}
+					{% else %}
+					{{ post.summary }}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+</section>
+</div>
+{% include footer.html %}
+{% include closure.html %}

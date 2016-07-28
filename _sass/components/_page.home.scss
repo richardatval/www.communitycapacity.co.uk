@@ -1,0 +1,75 @@
+.triad {
+	padding-left: $gutter;
+	padding-right: $gutter;
+	> a {
+		display: block;
+		margin-top: $gutter;
+		padding: $gutter*2 $gutter $gutter $gutter;
+		border: 1px solid lighten($brand-primary, 40%);
+		@include transition(all 0.1s ease-in-out);
+		background: lighten($brand-primary, 45%);
+		min-height: 240px;
+		&:hover {
+			cursor: pointer;
+			background: $brand-primary;
+			text-decoration: none;
+			color: #fff;
+			h3, span {
+				color: #fff;
+			}
+		}
+		h3 {
+			margin-bottom: 0;
+			color: $dark-gray;
+		}
+		img {
+			width: auto;
+			max-height: 4em;
+		}
+		span {
+			color: $dark-gray;
+			font-weight: bold;
+			display: block;
+			clear: both;
+			width: 100%;
+			&:after {
+				content:" \2192"
+			}
+			padding-left: 10px;
+		}
+		text-align: center;
+		@include media($mobile) {
+			@include fill-parent;
+		}
+
+		@include media(890px) {
+			@include span-columns(4 of 12);
+		}
+	}
+}
+
+#fb-events-wrapper {
+	@include media($mobile) {
+		@include fill-parent;
+	}
+	
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+	  #fb-events.box {
+		  margin-right: 0
+	  }
+    }
+}
+
+#contact-cta-wrapper {
+	@include media($mobile) {
+		@include fill-parent;
+	}
+	
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+	  .box.box-primary {
+		  margin-left: 0
+	  }
+    }
+}

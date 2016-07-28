@@ -1,0 +1,6 @@
+#fb-events-fallback {
+	display: none;
+	.no-js & {
+		display: block;
+	}
+}

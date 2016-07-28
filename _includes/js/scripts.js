@@ -20,11 +20,26 @@ $(document).ready(function() {
 		$('#js-search-toggle').attr({
 			href: "javascript:void(0)"
 		});
-		$('#js-search-toggle').addClass("show");
+		$('#js-search-toggle').addClass("show");4V7EJ-RU3N1-D2LS2-A04E1-150WP
 		$('#js-search-toggle').click(function() {
 			$(".search-tools").toggle();
 			$('#js-search-toggle').toggleClass('active');
 		});
+
+//Facebook Events Feed
+
+$.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=id,name,place,timezone,start_time&access_token=965566403542200|BVqedniABbAMHxMlDJ17Bym4HSw&since=now", function( data ) {
+  var items = [];
+  for (var i in data["data"]) {
+  var time = moment(data["data"][i]["start_time"])
+  items.push( '<li><a href="https://www.facebook.com/events/' + data["data"][i]["id"] + '">' + data["data"][i]["name"] + "</a><br />" + time.format('LLLL') + "</li>" );
+  }
+  items.reverse();
+  $( "<ul/>", {
+    "class": "item-list",
+    html: items.join( "" )
+  }).appendTo( "#fb-events" );
+});
 
 //Initialise google form
 
@@ -52,6 +67,7 @@ $(document).ready(function() {
 				}
 		});
 });
+
 
 (function(jQuery) {
 	jQuery.mark = {
