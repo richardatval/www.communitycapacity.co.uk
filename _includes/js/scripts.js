@@ -32,7 +32,9 @@ $.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=
   var items = [];
   for (var i in data["data"]) {
   var time = moment(data["data"][i]["start_time"])
+  if ( i < 4) {
   items.push( '<li><a href="https://www.facebook.com/events/' + data["data"][i]["id"] + '">' + data["data"][i]["name"] + "</a><br />" + time.format('LLLL') + "</li>" );
+  }
   }
   items.reverse();
   $( "<ul/>", {
