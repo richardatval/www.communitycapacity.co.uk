@@ -41,5 +41,5 @@ collections: # A list of collections the CMS should be able to edit
         file: "_settings/general.json"
         fields:
           - {label: "Main site title", name: "site_title", widget: "string"}
-          - {label: "Number of fronpage posts", name: "post_count", widget: "number"}
+          - {label: "Number of frontpage posts", name: "post_count", widget: "number"}
           - {label: "Site cover image", name: "cover", widget: "image"}
