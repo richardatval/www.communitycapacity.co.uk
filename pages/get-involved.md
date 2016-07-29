@@ -1,8 +1,9 @@
 ---
 title: Get Involved
+cmsUserSlug: get-involved
+date: 2016-07-29T00:00:00+01:00
+published: "true"
 layout: default
-summary: Be a part of change in your community by volunteering with us.
-permalink: /get-involved/
 ---
 
-Blerg
+Write your text here.
