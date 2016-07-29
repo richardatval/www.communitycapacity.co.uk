@@ -1,3 +1,46 @@
-.teaser {
-	margin-bottom: 1.5em;
+.page-news {
+	h1 {
+		margin-bottom: $gutter;
+	}
+}
+
+.teaser-wrapper {
+	transition: all 1s ease-in-out;
+	.teaser {
+		box-shadow: 0 2px 4px darken($base-background-color, 10%);
+		background: white;
+		border: 1px solid $light-gray;
+		padding: $gutter;
+		height: 23em;
+		font-size: 0.9em;
+		h4 {
+			margin-bottom: 0;
+		}
+		span {
+			color: darken($medium-gray, 30%);
+			font-size: 0.8em;
+		}
+		img {
+			transition: opacity 0.25s linear;
+		}
+		img:hover {
+			opacity: 0.7;
+		}
+	}
+    @include media($mobile) {
+		padding-left: $gutter;
+		padding-right: $gutter;
+		padding-bottom: $gutter;
+    }
+
+    // Same logic for tablets.
+    @include media($tablet) {
+		width: flex-grid(4, 8);
+		padding-right: 0;
+		float: left;
+    }
+
+    @include media($desktop) {
+		width: flex-grid(4, 12);
+    }
 }

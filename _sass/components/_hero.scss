@@ -44,9 +44,9 @@ background-size: auto 100%;
 }
 
 @include media($tablet) {
-	background-position: left top;
+	background-position: right top;
 	.hero-inner {
-		margin: auto auto auto 50%;
+		margin: auto 50% auto auto;
 		padding: $gutter;
 		min-height: 300px;
 		.hero-copy {
@@ -66,7 +66,7 @@ background-size: auto 100%;
 
 @include media($desktop) {
 	.hero-inner {
-		margin: auto auto auto 50%;
+		margin: auto 50% auto auto;
 		padding: $gutter;
 		min-height: 400px;
 		.hero-copy {

@@ -1,9 +1,8 @@
 ---
-title: Wigston
+title: Coalville & Greenhill
 layout: location
-location: Wigston
+location: Coalville & Greenhill
 summary: True to our roots, we are a friendly and diverse group at AALGS.
-permalink: /communities/wigston/
 ---
 
 What are the challenges faced in the local community? (No more than 5 sentences or one sentence introduction + 5 bullet points)

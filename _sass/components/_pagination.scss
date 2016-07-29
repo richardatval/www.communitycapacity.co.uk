@@ -11,9 +11,10 @@
   $pagination-background: lighten($pagination-border-color, 10);
   $pagination-hover-background: lighten($pagination-background, 5);
   $pagination-color: $base-font-color;
+  clear: both;
 
   text-align: center;
-  margin-top: 2em;
+  margin: 2em 1em 3em 1em ;
   
   ul {
     display: inline;
