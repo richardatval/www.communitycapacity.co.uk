@@ -3,6 +3,7 @@ title: Measham
 layout: location
 location: Measham
 summary: We’re just starting work in Measham to develop new community projects and activities.
+permalink: /communities/measham/
 ---
 
 We’re just starting work in Measham to develop new community projects and activities.
