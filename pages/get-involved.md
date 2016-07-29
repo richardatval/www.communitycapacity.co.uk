@@ -1,7 +1,8 @@
 ---
 title: Get Involved
 cmsUserSlug: get-involved
-date: 2016-07-29T00:00:00+01:00
+permalink: ""
+date: 2016-07-28T23:00:00.000Z
 published: "true"
 layout: default
 ---
