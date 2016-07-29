@@ -3,7 +3,6 @@ title: Loughborough
 layout: location
 location: Loughborough
 summary: True to our roots, we are a friendly and diverse group at AALGS.
-permalink: /communities/loughborough/
 ---
 
 ### What are the challenges faced in the local community? 

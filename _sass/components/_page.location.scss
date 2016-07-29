@@ -8,9 +8,6 @@ section.band#projects {
 	h1 {
 		margin-bottom: $gutter;
 	}
-	#content {
-		padding: 0 $gutter $gutter $gutter;
-	}
 	#projects {
 		@include clearfix;
 		h2 {

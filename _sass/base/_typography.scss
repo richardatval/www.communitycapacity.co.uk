@@ -49,9 +49,6 @@ h6 {
 
 h1 {
     font-size: modular-scale(4);
-	&.title {
-		margin-bottom: 0;
-	}
 }
 h2 {
 	font-size: modular-scale(3);
@@ -110,6 +107,7 @@ address {
 }
 
 blockquote {
+	margin-left: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	width: 100%;

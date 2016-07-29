@@ -5,9 +5,9 @@
 		display: block;
 		margin-top: $gutter;
 		padding: $gutter*2 $gutter $gutter $gutter;
-		border: 1px solid lighten($brand-primary, 40%);
+		border: 1px solid darken(whitesmoke, 10%);
 		@include transition(all 0.1s ease-in-out);
-		background: lighten($brand-primary, 45%);
+		background: whitesmoke;
 		min-height: 240px;
 		&:hover {
 			cursor: pointer;

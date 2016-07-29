@@ -1,10 +1,13 @@
 h1.title {
 	color: $brand-primary;
 	padding: $gutter 0 0 $gutter;
-	margin-bottom: 0;
 }
 
 article {
+	
+	h1.title {
+		padding: 0;
+	}
 	padding: $gutter;
 	ul {
 		padding-left: $gutter;

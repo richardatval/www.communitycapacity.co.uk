@@ -9,9 +9,28 @@ header.navigation {
 		background: #fff;
 		z-index: 1000;
 		.branding {
-		@include clearfix;
-		@include outer-container;
-	}
+			@include clearfix;
+			@include outer-container;
+			.branding-link.fb {
+				@include transition(all 0.1s ease-in-out);
+				margin: $gutter*2 $gutter $gutter $gutter;
+				color: #666666;
+				font-size: 0.8em;
+				line-height: 21px;
+				float: right;
+				background-repeat: no-repeat;
+				background-size: 8px 21px;
+				padding-right: 16px;
+				background-position: right center;
+				background-image: url('#{"" + $image-directory}/facebook-icon.png');
+				&:hover {
+					@include transition(all 0.1s ease-in-out);
+					color: $amber;
+					text-decoration: none;
+					background-image: url('#{"" + $image-directory}/facebook-icon-hover.png');
+				}
+			}
+		}
 	}
 
 	li.expanded, li.collapsed, li.leaf {
@@ -106,8 +125,8 @@ header.navigation {
 			&:focus,
 			&:hover {
 				> a {
-				background: $navigation-nav-button-background-hover;
-			}
+					background: $navigation-nav-button-background-hover;
+				}
 			}
 			border-top: none;
 			background: transparent;
@@ -412,7 +431,7 @@ a.logo {
 	background-position: center center;
 	width: 43px;
 	@include media (em(350px)){
-	width: 50px;
+		width: 50px;
 	}
 	@include media ($small-screen) {
 		width: $navigation-height;

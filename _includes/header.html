@@ -25,7 +25,7 @@
 	<header class="navigation" role="banner">
 		<div class="branding-wrapper">
 			<div class="branding">
-			<a aria-label="Home" href="{{ site.baseurl }}/" class="logo"><h1>{{ site.title }}</h1></a>{% if site.facebook != "" %}<li><a href="http://www.facebook.com/{{ site.facebook }}">Like us on Facebook</a></li>{% endif %}
+			<a aria-label="Home" href="{{ site.baseurl }}/" class="logo"><h1>{{ site.title }}</h1></a>{% if site.facebook != "" %}<a class="branding-link fb" href="http://www.facebook.com/{{ site.facebook }}">Like us on Facebook</a>{% endif %}
 		</div>
 		</div>
 		<div class="navigation-wrapper">
