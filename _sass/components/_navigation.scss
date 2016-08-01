@@ -12,6 +12,9 @@ header.navigation {
 			@include clearfix;
 			@include outer-container;
 			.branding-link.fb {
+				display: none;
+				@include media($desktop) {
+					display: block;}
 				@include transition(all 0.1s ease-in-out);
 				margin: $gutter*2 $gutter $gutter $gutter;
 				color: #666666;
@@ -368,9 +371,15 @@ header.navigation {
 	}
 }
 
-$navigation-small-image-width: 290px;
-$navigation-small-image-ratio: $navigation-small-image-width/$logo-image-width;
-$navigation-small-image-height: $logo-image-height*$navigation-small-image-ratio;
+@mixin resizer($name) {
+@debug '#{"$navigation-" + $name + "-image-width"}';
+}
+
+@include resizer("xsmall");
+
+$navigation-xsmall-image-width: 290px;
+$navigation-xsmall-image-ratio: $navigation-xsmall-image-width/$logo-image-width;
+$navigation-xsmall-image-height: $logo-image-height*$navigation-xsmall-image-ratio;
 
 $navigation-medium-image-width: 500px;
 $navigation-medium-image-ratio: $navigation-medium-image-width/$logo-image-width;
@@ -384,9 +393,14 @@ a.logo {
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -99999px;
-	background-size: $navigation-small-image-width $navigation-small-image-height;
-	width: $navigation-small-image-width;
-	height: $navigation-small-image-height;
+	background-size: $navigation-xsmall-image-width $navigation-xsmall-image-height;
+	width: $navigation-xsmall-image-width;
+	height: $navigation-xsmall-image-height;
+	@include media(500px) {
+		background-size: $navigation-medium-image-width $navigation-medium-image-height;
+		width: $navigation-medium-image-width;
+		height: $navigation-medium-image-height;
+	}
 	@include media(600px) {
 		background-size: $navigation-medium-image-width $navigation-medium-image-height;
 		width: $navigation-medium-image-width;

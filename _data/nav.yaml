@@ -7,8 +7,6 @@
 #     - subtitle: "title of second level item"
 #       subhref: "relative link of second level item"
 
-- title: "Home"
-  href: "/"
 - title: "About"
   href: "#"
   subcategories:

@@ -52,7 +52,6 @@
 	@include media($mobile) {
 		@include fill-parent;
 	}
-	
     @include media($tablet) {
       @include span-columns(6 of 12);
 	  #fb-events.box {
