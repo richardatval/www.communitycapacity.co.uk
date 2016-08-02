@@ -2,7 +2,7 @@
 # Layouts must stay in HTML
 ---
 {% include header.html %}
-<main role="main" class="page-content m-scene one-sidebar sidebar-second">
+<main role="main" class="page-content page-home m-scene one-sidebar sidebar-second">
 	<div  class="scene_element scene_element--fadein">
 		<section class="band hero-band">
 		<div class="container">
@@ -21,22 +21,34 @@
 	</section>
 	</header>
 </div>
-</main>
-<div class="container triad">
-<a href="/about/who-we-are">
-<img src="img/community-icon.png">
-<h3>4 Communities</h3>
-<span href="#">See where we work</span>
-</a>
-<a href="/our-work">
-<img src="img/projects-icon.png">
-<h3>18 Projects</h3>
-<span href="/our-work">See our projects</span>
-<a href="/get-involved">
-<img src="img/people-icon.png">
-<h3>300 People Involved</h3>
-<span>Get involved</span>
-</a>
+<div class="container teasers-container">
+<div class="teaser-wrapper">
+	<div class="teaser">
+  <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/img/coalville-friendship-group.jpg"></a>
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">4 Communities</a></h3>
+  <div class="content">
+<a href="#">See where we work</a>
+  </div>
+</div>
+</div>
+<div class="teaser-wrapper">
+	<div class="teaser">
+  <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/img/coalville-friendship-group.jpg"></a>
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">18 Projects</a></h3>
+  <div class="content">
+<a href="#">See our projects</a>
+  </div>
+</div>
+</div>
+<div class="teaser-wrapper">
+	<div class="teaser">
+  <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/img/coalville-friendship-group.jpg"></a>
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">300 People Involved</a></h3>
+  <div class="content">
+<a href="#">Get involved</a>
+  </div>
+</div>
+</div>
 </div>
 <div class="container">
 {% include fb.html %}
@@ -48,5 +60,6 @@
 </div>
 </div>
 </div>
+</main>
 {% include footer.html %}
 {% include closure.html %}

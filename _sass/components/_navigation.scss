@@ -379,6 +379,7 @@ a.logo {
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -99999px;
+	@include transition(all 0.1s ease-in-out);
 	@include logoresizer($logo-image-width, $logo-image-height);
 	background-image:url('#{"" + $image-directory}/logo.png');
 }
