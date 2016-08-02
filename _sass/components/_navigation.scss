@@ -371,20 +371,6 @@ header.navigation {
 	}
 }
 
-@mixin resizer($name) {
-@debug '#{"$navigation-" + $name + "-image-width"}';
-}
-
-@include resizer("xsmall");
-
-$navigation-xsmall-image-width: 290px;
-$navigation-xsmall-image-ratio: $navigation-xsmall-image-width/$logo-image-width;
-$navigation-xsmall-image-height: $logo-image-height*$navigation-xsmall-image-ratio;
-
-$navigation-medium-image-width: 500px;
-$navigation-medium-image-ratio: $navigation-medium-image-width/$logo-image-width;
-$navigation-medium-image-height: $logo-image-height*$navigation-medium-image-ratio;
-
 a.logo {
 	margin: $gutter;
 	color: #fff;
@@ -393,19 +379,7 @@ a.logo {
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -99999px;
-	background-size: $navigation-xsmall-image-width $navigation-xsmall-image-height;
-	width: $navigation-xsmall-image-width;
-	height: $navigation-xsmall-image-height;
-	@include media(500px) {
-		background-size: $navigation-medium-image-width $navigation-medium-image-height;
-		width: $navigation-medium-image-width;
-		height: $navigation-medium-image-height;
-	}
-	@include media(600px) {
-		background-size: $navigation-medium-image-width $navigation-medium-image-height;
-		width: $navigation-medium-image-width;
-		height: $navigation-medium-image-height;
-	}
+	@include logoresizer($logo-image-width, $logo-image-height);
 	background-image:url('#{"" + $image-directory}/logo.png');
 }
 

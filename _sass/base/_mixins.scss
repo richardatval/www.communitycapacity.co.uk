@@ -1,0 +1,14 @@
+@mixin logoresizer($orginalimagewidth, $orginalimageheight) {
+	$size: 320;
+	background-size: ($size - ($gutter*2)) (($size - ($gutter*2)) * ($orginalimageheight/$orginalimagewidth));
+	width: ($size - ($gutter*2));
+	height: ($size - ($gutter*2))*($orginalimageheight/$orginalimagewidth);
+	@while $size < 600px {
+		@include media(#{$size}px) {
+			background-size: ($size - ($gutter*2)) (($size - ($gutter*2)) * ($orginalimageheight/$orginalimagewidth));
+			width: ($size - ($gutter*2));
+			height: ($size - ($gutter*2))*($orginalimageheight/$orginalimagewidth);
+			$size: $size + 40
+		}
+	}
+}
