@@ -3,7 +3,7 @@ button, a.button {
   @include appearance(none);
   -webkit-font-smoothing: antialiased;
   background-color: $action-color;
-  border-radius: $base-border-radius;
+  border-radius: 3px;
   border: none;
   color: #fff;
   font-weight: bold;

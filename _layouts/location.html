@@ -19,8 +19,8 @@
 	</main>
 	<section class="band" id="projects">
 		<div class="container">
-			<h2>Projects in {{ page.location }}</h2>
-			{% for post in site.posts %}{% if post.location contains page.location %}
+			<h2>Projects in {{ page.title }}</h2>
+			{% for post in site.posts %}{% if post.category contains page.category %}
 			<div class="teaser-wrapper">
 				<div class="teaser">
 					<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.primary-image }}"></a>

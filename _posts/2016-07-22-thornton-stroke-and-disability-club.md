@@ -3,7 +3,7 @@ title: Thornton Stroke and Disability Club
 summary: CCB creating new services to support health and wellbeing initiatives.
 published: true
 layout: default
-location: Loughborough
+category: loughborough
 primary-image: /img/stroke-disability.jpg
 ---
 

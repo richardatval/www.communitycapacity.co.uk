@@ -20,6 +20,7 @@ background-position: center bottom;
 background-repeat: no-repeat;
 background-color: $hero-background-color;
 background-size: 888px auto;
+@include transition(background 1.5s linear);
 
 .hero-inner {
 	@include outer-container;

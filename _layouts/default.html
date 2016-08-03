@@ -14,9 +14,13 @@
 				</article>
 			</section>
 			<aside id="sidebar-second">
+				{% if page.location %}
+				{% include googlemap.html location = page.location %}
+				{% endif %}
 			</aside>
 		</div>
 	</div>
 </main>
 {% include footer.html %}
 {% include closure.html %}
+

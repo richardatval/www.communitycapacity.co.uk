@@ -3,7 +3,7 @@ title: Coalville Friendship Group
 summary: We’re teaming up with local services to ensure that people in Coalville can stay connected in informal social groups.
 layout: default
 published: true
-location: Coalville & Greenhill
+category: coalville-greenhill
 primary-image: /img/coalville-friendship-group.jpg
 ---
 

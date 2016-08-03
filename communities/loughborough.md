@@ -1,7 +1,8 @@
 ---
 title: Loughborough
 layout: location
-location: Loughborough
+permalink: /loughborough/
+category: loughborough
 summary: True to our roots, we are a friendly and diverse group at AALGS.
 ---
 

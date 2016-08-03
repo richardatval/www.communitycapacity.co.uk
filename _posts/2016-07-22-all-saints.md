@@ -3,9 +3,9 @@ title: All Saints Primary School Community Garden
 summary: We’re working with local schoolchildren, parents and community members to set up a community garden.
 published: true
 layout: default
-location: Coalville & Greenhill
+category: coalville-greenhill
 primary-image: /img/all-saints.jpg
-maplocation: "All Saints Primary School, Coalville"
+location: "All Saints Primary School, Coalville"
 ---
 
 ![IMAGE ALT TEXT HERE]({{ page.primary-image }})

@@ -1,7 +1,8 @@
 ---
 title: Coalville & Greenhill
 layout: location
-location: Coalville & Greenhill
+permalink: /coalville-greenhill/
+category: coalville-greenhill
 summary: True to our roots, we are a friendly and diverse group at AALGS.
 ---
 

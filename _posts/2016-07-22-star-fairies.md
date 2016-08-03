@@ -3,7 +3,7 @@ title: Star Fairies
 summary: We’re working with local residents to help them clean up the public areas inside and outside their blocks of flats in the Hastings wards. 
 published: true
 layout: default
-location: Loughborough
+category: loughborough
 primary-image: /img/case-study.jpg
 ---
 

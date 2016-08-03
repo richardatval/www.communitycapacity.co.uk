@@ -14,19 +14,20 @@ gems:
 #  Site settings
 title: Community Capacity Building
 description: Making positive community change possible
-url: http://www.greatleicester.org.uk
+url: http://www.communitycapacity.co.uk
 baseurl:
-email: info@greatleicester.org.uk
+email: ccb@valonline.org.uk
+phone: 0116 257 5050
 github: aylestoneallotments/www.aylestoneallotments.co.uk
 logo_path: /img/logo.svg
-copyright: "Children's Workforce Matters is a project of Voluntary Action Leicester. Voluntary Action Leicester is a registered charity (No. 509300) Company Limited by Guarantee (No. 1357513) Registered in England and Wales."
+copyright: "Community Capacity Building is a project of Voluntary Action Leicester. Voluntary Action Leicester is a registered charity (No. 509300) Company Limited by Guarantee (No. 1357513) Registered in England and Wales."
 
 #  Social media settings
 
-facebook: "voluntaryactionleics"
-twitter : "valonline"
+facebook: "Community-Capacity-Building-Project-CCB-796315400483436"
+twitter : ""
 instagram: ""
-permalink: pretty
+permalink: none
 
 # Services
 

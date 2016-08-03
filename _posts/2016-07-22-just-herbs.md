@@ -3,7 +3,7 @@ title: Just Herbs
 summary: We’re working with a local resident to run a project to grow herbs in Lemyngton ward in Loughborough
 published: true
 layout: default
-location: Loughborough
+category: loughborough
 primary-image: /img/just-herbs.jpg
 ---
 

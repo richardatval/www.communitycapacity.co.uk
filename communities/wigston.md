@@ -1,7 +1,8 @@
 ---
 title: Wigston
 layout: location
-location: Wigston
+category: Wigston
+permalink: /wigston/
 summary: True to our roots, we are a friendly and diverse group at AALGS.
 ---
 

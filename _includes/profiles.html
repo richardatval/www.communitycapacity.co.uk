@@ -8,7 +8,7 @@
 {% if profile.website != null%}<div class="field website"><a href="{{ profile.website }}">{{ profile.website }}</a></div>{% endif %}
 {% if profile.twitter != null%}<div class="field twitter"><a href="http://www.twitter.com/{{ profile.twitter }}">@{{ profile.twitter }}</div>{% endif %}
 {% if profile.email != null%}<div class="field email"><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></div>{% endif %}
-{% if profile.bio != null%}<div class="field bio">{{ profile.bio }}</div>{% endif %}
+{% if profile.bio != null%}<div class="field bio">{{ profile.bio | markdownify}}</div>{% endif %}
 </div></div>
 {% endfor %}
 </div>

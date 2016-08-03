@@ -1,7 +1,8 @@
 ---
 title: Measham
 layout: location
-location: Measham
+category: Measham
+permalink: /measham/
 summary: We’re just starting work in Measham to develop new community projects and activities.
 ---
 

@@ -2,6 +2,7 @@
 title: Who we are
 layout: default
 summary: True to our roots, we are a friendly and diverse group at AALGS.
+permalink: /who-we-are/
 ---
 
 True to our roots, we are a friendly and diverse group at AALGS. From the very young children who come to ‘help’ their families with the digging, to our invaluably wise Members in their 90s who are still doing their bit, no matter what your experience of allotment gardening, there will be something here for you.

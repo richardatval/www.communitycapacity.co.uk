@@ -2,7 +2,7 @@
 title: Search
 layout: default
 summary: Search site for content.
-permalink: /search
+permalink: /search/
 sitemap: false
 ---
 

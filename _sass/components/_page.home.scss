@@ -1,11 +1,26 @@
+
+
 .page-home {
+	.hero-copy {
+		a.button {
+			background: #fff;
+			color: $green;
+			&:hover {
+				background: $light-gray;
+			}
+		}
+	}
 	.teasers-container {
 		background: whitesmoke;
 		padding-top: $gutter;
 		text-align: center;
-		h3 a {
-			color: $green;
-			font-size: 1.1em;
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 0;
+			a {
+				color: $green;
+				font-size: 1.1em;
+			}
 		}
 		a {
 			color: $dark-gray;
@@ -15,7 +30,7 @@
 				height: auto;
 			}
 			@include media($tablet) {
-				height: 20em;
+				height: 18em;
 			}
 		}
 	}
@@ -26,12 +41,12 @@
 	@include media($mobile) {
 		@include fill-parent;
 	}
-    @include media($tablet) {
-      @include span-columns(6 of 12);
-	  #fb-events.box {
-		  margin-right: 0
-	  }
-    }
+	@include media($tablet) {
+		@include span-columns(6 of 12);
+		#fb-events.box {
+			margin-right: 0
+		}
+	}
 }
 
 #contact-cta-wrapper {
@@ -39,10 +54,10 @@
 		@include fill-parent;
 	}
 	
-    @include media($tablet) {
-      @include span-columns(6 of 12);
-	  .box.box-primary {
-		  margin-left: 0
-	  }
-    }
+	@include media($tablet) {
+		@include span-columns(6 of 12);
+		.box.box-primary {
+			margin-left: 0
+		}
+	}
 }

@@ -6,18 +6,14 @@
 <main role="main" class="page-content m-scene one-sidebar sidebar-second page-contact">
 	<div  class="scene_element scene_element--fadein">
 		<div class="container">
-			<h1 class="title">{{ page.title }}</h1>
 			<section id="content">
+				<h1 class="title">{{ page.title }}</h1>
 				<article>
 					{{ content }}
 				</article>
 			</section>
 			<aside id="sidebar-second">
-			<div class="box box-default">
-			<h3>Find us</h3>
-			<p>We are based at Voluntary Action Leicester, 9 Newarke Street, Leicester, LE1 5SN</p>
-			{% include googlemap.html location='9 Newarke Street Leicester' %}
-			</div>
+			{% include googlemap.html location = "Voluntary Action LeicesterShire, 9 Newarke Street, Leicester LE1 5SN" %}
 			</aside>
 		</div>
 	</div>
