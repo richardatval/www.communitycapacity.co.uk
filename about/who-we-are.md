@@ -1,20 +1,28 @@
 ---
 title: Who we are
-layout: default
-summary: True to our roots, we are a friendly and diverse group at AALGS.
+layout: no-sidebars
+summary: The Community Capacity Building (CCB) project is a new community development project that focuses on creating new and exciting projects that are led and run by people from the local community.
 permalink: /who-we-are/
 ---
 
-True to our roots, we are a friendly and diverse group at AALGS. From the very young children who come to ‘help’ their families with the digging, to our invaluably wise Members in their 90s who are still doing their bit, no matter what your experience of allotment gardening, there will be something here for you.
+CCB focuses on actions that are positive, creative and inclusive for the whole community. Instead of focusing on what is missing or causing problems in an area, CCB concentrates on what is possible for a local community. We work with local community members who have an idea to improve the area they live in to help them kick-start new projects and activities. We then support the community to help them develop these ideas into long term projects. 
 
-There are currently around 200 plots on our site, most of which are around 300 square yards in size, with a few 100 square yard ‘nursery’ plots for those who are just starting out, or those who would prefer a ‘back garden’ sized plot over a market garden sized one!
+As part of this work we look into the assets available to community, such as: 
 
-* Test
-* Test
-* Test
+* Individuals in the community – the time, skills and enthusiasm local people can share with their community as volunteers
+* Buildings and physical space that could be used for activities 
+* Resources and equipment that could be used for activities
+* Small informal groups in the community that could support new activities or projects
+* Skills, experience and resources that partner organisations could share with the community 
+* Ways to connect different people in the community so they can work together
 
-Our biggest let is currently held by the Saffron Acres Project, a wonderful community gardening venture aiming to increase understanding of healthy, locally-grown, fresh food, bringing people together and improving the environment along the way. Many of our Members volunteer at SAP – if you are interested in doing so too, take a look here.
+### Where do we work?
 
-As a community, we tend to congregate around the Seed Hut where we operate a small shop offering competitively priced seeds, fertilisers, bulbs and other related materials to our Members, along with plenty of advice on how to plant them when they need it. We sell tea, coffee and other refreshments here, and there is also a small library of gardening books to help you along on your endeavours. The Seed Hut is open at the weekend, and sometimes during the week in the summertime, depending on the good will of the lovely Members who volunteer to run it. 
+We are currently working in 4 target areas in Leicestershire:
 
-We hold a variety of social events and competitions throughout the year, as well as taster events for those who are interested in taking a look around the site.
+* Hastings and Lemyngton wards in Loughborough
+* Coalville
+* South Wigston and Wigston Magna
+* Measham
+
+{% include box.html title="Get Started" text="We’re interested in hearing any ideas for community projects, both large and small. If you have an idea for a community project in one of our target areas then please get in touch." buttontext="Find out more" url="/get-involved/" %}

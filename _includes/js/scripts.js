@@ -31,9 +31,13 @@ $(document).ready(function() {
 $.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=id,name,place,timezone,start_time&access_token=965566403542200|BVqedniABbAMHxMlDJ17Bym4HSw&since=now", function( data ) {
   var items = [];
   for (var i in data["data"]) {
-  var time = moment(data["data"][i]["start_time"])
-  if ( i < 4) {
+  var time = moment(data["data"][i]["start_time"]);
+  var morelink = "";
+  if ( i < 3) {
   items.push( '<li><a href="https://www.facebook.com/events/' + data["data"][i]["id"] + '">' + data["data"][i]["name"] + "</a><br />" + time.format('LLLL') + "</li>" );
+  }
+  else {
+  morelink = '<a class="readmore" href="https://www.facebook.com/Community-Capacity-Building-Project-CCB-796315400483436">more</a>'
   }
   }
   items.reverse();
@@ -41,6 +45,7 @@ $.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=
     "class": "item-list",
     html: items.join( "" )
   }).appendTo( "#fb-events" );
+  $("#fb-events .item-list").append(morelink);
 });
 
 //Initialise google form
