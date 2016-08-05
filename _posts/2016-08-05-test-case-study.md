@@ -1,6 +1,6 @@
 ---
 date: '2016-08-05 15:08 +0100'
-published: false
+published: true
 layout: default
 category: coalville-greenhill
 summary: Testing 123
