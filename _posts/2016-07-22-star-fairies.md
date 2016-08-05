@@ -1,13 +1,16 @@
 ---
 title: Star Fairies
-summary: We’re working with local residents to help them clean up the public areas inside and outside their blocks of flats in the Hastings wards. 
+summary: >-
+  We’re working with local residents to help them clean up the public areas
+  inside and outside their blocks of flats in the Hastings wards.
 published: true
 layout: default
 category: loughborough
 primary-image: /img/case-study.jpg
+date: '2016-08-05 15:33 +0100'
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Start Fairies Photo]({{ page.primary-image }})
 
 ### What is/was the problem? 
 
@@ -38,4 +41,3 @@ Lorna, from Matios Tenienti Centre shared her views about how the project is mak
 If like Stair Fairies you’d like to make your community that little bit brighter, we’re here to help.
 
 {% include box.html title="Get involved" buttontext="Get Involved" text="•	Could you spare some time to help out on the Stair Fairies cleaning days?" url="/get-involved" class="box-amber"  %}
- 
