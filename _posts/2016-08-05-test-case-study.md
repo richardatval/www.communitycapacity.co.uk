@@ -3,7 +3,7 @@ date: '2016-08-05 15:08 +0100'
 published: true
 layout: default
 category: coalville-greenhill
-summary: Testing 123
+summary: This is the summary
 primary-image: /img/hw.jpg
 title: Elephant
 ---
