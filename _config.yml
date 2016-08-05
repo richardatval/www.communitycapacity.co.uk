@@ -62,13 +62,6 @@ prose:
     - 'js'
     - 'css'
     - '_sass'
-    - '_config.yml'
-    - 'bower.json'
-    - 'LICENSE.md'
-    - 'CNAME'
-    - '.bowerrc'
-    - '.gitignore'
-    - '404.md'
   media: img
   metadata:
     _posts:
