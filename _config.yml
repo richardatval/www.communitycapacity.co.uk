@@ -51,7 +51,20 @@ conditionalstylesheets:
 
 #  Configuration for prose.io online editor
 prose:
-  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','_config.yml','bower.json']
+  rooturl: '_posts'
+  ignore: 
+    - '_includes'
+    - 'assets'
+    - '_assets'
+    - '_layouts'
+    - '_plugins'
+    - '/.jekyll-metadata'
+    - 'feed.xml'
+    - 'js'
+    - 'css'
+    - '_sass'
+    - '_config.yml'
+    - 'bower.json'
   media: img
   metadata:
     _posts:
