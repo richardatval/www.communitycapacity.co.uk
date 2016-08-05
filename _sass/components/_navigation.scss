@@ -386,12 +386,9 @@ a.logo {
 }
 
 .navigation-menu-button {
-	background-image:url('#{"" + $image-directory}/navigation-button.svg');
-	.no-svg & {
-		background-image: url('#{"" + $image-directory}/navigation-button.png');
-	}
-
+	background-image: url('#{"" + $image-directory}/navigation-button.png');
 	background-repeat: no-repeat;
+	background-size: 25px 25px;
 	background-position: center center;
 	width: 50px;
 	@include media ($small-screen) {
@@ -413,10 +410,8 @@ a.logo {
 	.no-js & {
 		display: none;
 	}
-	background-image:url('#{"" + $image-directory}/search-button.svg');
-	.no-svg & {
-		background-image: url('#{"" + $image-directory}/search-button.png');
-	}
+	background-image: url('#{"" + $image-directory}/search-button.png');
+	background-size: 25px 25px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 43px;
