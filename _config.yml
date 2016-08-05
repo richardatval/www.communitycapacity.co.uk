@@ -74,6 +74,7 @@ prose:
         field:
           label: "Primary Image"
           element: "text"
+          placeholder: "/img/your-image.jpg"
           value: null
       - name: "layout"
         field:
