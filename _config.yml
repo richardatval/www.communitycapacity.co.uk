@@ -65,6 +65,16 @@ prose:
           label: "Published"
           element: "checkbox"
           value: false
+      - name: "summary"
+        field:
+          label: "Summary"
+          element: "text"
+          value: null
+      - name: "primary-image"
+        field:
+          label: "Primary Image"
+          element: "text"
+          value: null
       - name: "layout"
         field:
           element: "hidden"
