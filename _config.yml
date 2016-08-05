@@ -77,5 +77,10 @@ prose:
           value: null
       - name: "layout"
         field:
-          element: "hidden"
+          element: "select"
           value: "default"
+          options:
+            - name: 'Default'
+              value: 'default'
+            - name: 'No Sidebars'
+              value: 'no-sidebars'
