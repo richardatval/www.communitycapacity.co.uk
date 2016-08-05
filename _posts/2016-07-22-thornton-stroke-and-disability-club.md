@@ -5,6 +5,7 @@ published: true
 layout: default
 category: loughborough
 primary-image: /img/stroke-disability.jpg
+date: '2016-08-05 16:25 +0100'
 ---
 
 ![IMAGE ALT TEXT HERE]({{ page.primary-image }})
@@ -32,4 +33,5 @@ Thornton Stroke Club runs their activities every Monday 1-3pm at Thornton Commun
 If like Sharon you’d like to make your community that little bit brighter, we’re here to help. 
 
 {% include box.html title="Get involved" buttontext="Get Involved" text="Would you like to take part in the activities of the group?" url="/get-involved" class="box-amber"  %}
- 
+
+Working?
