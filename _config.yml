@@ -67,6 +67,10 @@ prose:
   media: img
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "date"
         field:
           label: "Date"
