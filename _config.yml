@@ -68,7 +68,7 @@ prose:
       - name: "summary"
         field:
           label: "Summary"
-          element: "text"
+          element: "textarea"
           value: null
       - name: "primary-image"
         field:
@@ -77,6 +77,7 @@ prose:
           value: null
       - name: "layout"
         field:
+          label: "Layout"
           element: "select"
           value: "default"
           options:
@@ -84,3 +85,17 @@ prose:
               value: 'default'
             - name: 'No Sidebars'
               value: 'no-sidebars'
+      - name: "category"
+        field:
+          label: "Category"
+          element: "select"
+          value: "default"
+          options:
+            - name: 'Coalville & Greenhill'
+              value: 'coalville-greenhill'
+            - name: 'Loughborough'
+              value: 'loughborough'
+            - name: 'Measham'
+              value: 'measham'
+            - name: 'Wigston'
+              value: 'wigston'
