@@ -51,7 +51,6 @@ conditionalstylesheets:
 
 #  Configuration for prose.io online editor
 prose:
-  rooturl: '_posts'
   ignore: 
     - '_includes'
     - 'assets'
