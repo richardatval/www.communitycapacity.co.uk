@@ -4,7 +4,8 @@ published: true
 layout: default
 category: coalville-greenhill
 summary: Testing 123
+primary-image: /img/hw.jpg
 ---
-## A New Post
+![hw.jpg]({{site.baseurl}}/img/hw.jpg)
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
