@@ -52,7 +52,6 @@ conditionalstylesheets:
 #  Configuration for prose.io online editor
 prose:
   rooturl: '_posts'
-  siteurl: "http://www.communitycapacity.co.uk"
   ignore: 
     - '_includes'
     - 'assets'
