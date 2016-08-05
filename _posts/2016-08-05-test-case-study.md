@@ -5,7 +5,7 @@ layout: default
 category: coalville-greenhill
 summary: Testing 123
 primary-image: /img/hw.jpg
-title: Testing 123
+title: Elephant
 ---
 ![hw.jpg]({{site.baseurl}}/img/hw.jpg)
 
