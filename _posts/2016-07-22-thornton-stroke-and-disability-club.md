@@ -5,7 +5,7 @@ published: true
 layout: default
 category: loughborough
 primary-image: /img/stroke-disability.jpg
-date: '2016-08-05 16:24 +0100'
+date: '2016-08-05 16:25 +0100'
 ---
 
 ![IMAGE ALT TEXT HERE]({{ page.primary-image }})
@@ -34,4 +34,4 @@ If like Sharon youâ€™d like to make your community that little bit brighter, weâ
 
 {% include box.html title="Get involved" buttontext="Get Involved" text="Would you like to take part in the activities of the group?" url="/get-involved" class="box-amber"  %}
 
-Is this working?
+Working?
