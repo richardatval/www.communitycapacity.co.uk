@@ -8,7 +8,7 @@ primary-image: /img/all-saints.jpg
 location: "All Saints Primary School, Coalville"
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Children learning to garden at primary school](/img/all-saints.jpg)
 
 ### What is/was the problem? 
 

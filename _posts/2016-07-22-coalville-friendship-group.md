@@ -7,7 +7,7 @@ category: coalville-greenhill
 primary-image: /img/coalville-friendship-group.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Members of Coalville Friendship Group](/img/coalville-friendship-group.jpg)
 
 ### What is/was the problem? 
 

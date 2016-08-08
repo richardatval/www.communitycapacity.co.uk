@@ -3,11 +3,11 @@ title: Incredible Edible Oadby & Wigston
 summary: Dig, plant and then grow fruit in community spaces around Oadby & Wigston borough.
 published: true
 layout: default
-category: Wigston
+category: wigston
 primary-image: /img/incredible-edible.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Service users from the Incredible Edible Project](/img/incredible-edible.jpg)
 
 ### What is/was the problem? 
 

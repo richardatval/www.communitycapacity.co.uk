@@ -7,7 +7,7 @@ category: coalville-greenhill
 primary-image: /img/case-study.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Picture of Houses](/img/case-study.jpg)
 
 ### What is/was the problem? 
 

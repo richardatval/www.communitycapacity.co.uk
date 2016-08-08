@@ -8,7 +8,7 @@ primary-image: /img/stroke-disability.jpg
 date: '2016-08-05 16:25 +0100'
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Thornton Stroke and Disability Club Service Users](/img/stroke-disability.jpg)
 
 ### What is/was the problem? 
 

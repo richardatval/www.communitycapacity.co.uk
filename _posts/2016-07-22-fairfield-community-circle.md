@@ -3,7 +3,7 @@ title: Fairfield Community Circle
 summary: We’re working with local residents to organise more community activities on the Fairfield estate in South Wigston.
 published: true
 layout: default
-category: Wigston
+category: wigston
 primary-image: /img/fairfield-community.jpg
 ---
 

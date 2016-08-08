@@ -7,10 +7,9 @@ published: true
 layout: default
 category: loughborough
 primary-image: /img/case-study.jpg
-date: '2016-08-05 15:33 +0100'
 ---
 
-![Start Fairies Photo]({{ page.primary-image }})
+![Picture of Houses](/img/case-study.jpg)
 
 ### What is/was the problem? 
 

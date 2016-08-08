@@ -3,11 +3,11 @@ title: Good Gleaners Project
 summary: We’re helping residents to organise recycling and upcycling of old furniture and other household goods that can then be donated to vulnerable people in the area.
 published: true
 layout: default
-category: Loughborough
+category: loughborough
 primary-image: /img/case-study.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Picture of Houses](/img/case-study.jpg)
 
 ### What is/was the problem? 
 

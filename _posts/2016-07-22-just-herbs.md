@@ -7,7 +7,7 @@ category: loughborough
 primary-image: /img/just-herbs.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![Just Herbs Group](/img/just-herbs.jpg)
 
 ### What is/was the problem? 
 
