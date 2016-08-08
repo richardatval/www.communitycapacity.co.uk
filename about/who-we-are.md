@@ -20,8 +20,6 @@ As part of this work we look into the assets available to community, such as:
 * Skills, experience and resources that partner organisations could share with the community 
 * Ways to connect different people in the community so they can work together
 
-Test
-
 ### Where do we work?
 
 We are currently working in 4 target areas in Leicestershire:
