@@ -62,6 +62,16 @@ prose:
     - 'js'
     - 'css'
     - '_sass'
+    - 'CNAME'
+    - '.bowerrc'
+    - '.gitignore'
+    - '404.md'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'README.md'
+    - '_config.yml'
+    - 'bower.json'
+    - 'favicon.ico'
   media: img
   metadata:
     _posts:
