@@ -9,16 +9,16 @@ permalink: /who-we-are/
 published: true
 ---
 
-CCB focuses on actions that are positive, creative and inclusive for the whole community. Instead of focusing on what is missing or causing problems in an area, CCB concentrates on what is possible for a local community. We work with local community members who have an idea to improve the area they live in to help them kick-start new projects and activities. We then support the community to help them develop these ideas into long term projects. 
+Community Capacity Building (CCB) focuses on actions that are positive, creative and inclusive for the whole community. Instead of focusing on what is missing or causing problems, CCB concentrates on what is possible for a local community. We work with community members to improve the area they live in by supporting them to kick-start new projects and activities. We then help them to develop these ideas into long-term projects.
 
-As part of this work we look into the assets available to community, such as: 
+As part of this work we look into the assets available to each community, such as: 
 
-* Individuals in the community – the time, skills and enthusiasm local people can share with their community as volunteers
-* Buildings and physical space that could be used for activities 
-* Resources and equipment that could be used for activities
-* Small informal groups in the community that could support new activities or projects
+* Individuals – the time, skills and enthusiasm local people can share with their community as volunteers
+* Buildings and physical space 
+* Resources and equipment
+* Small, informal groups in the community that could support new activities or projects
 * Skills, experience and resources that partner organisations could share with the community 
-* Ways to connect different people in the community so they can work together
+* Ways to connect different people within the community so they can work together
 
 ### Where do we work?
 
