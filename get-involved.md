@@ -1,7 +1,7 @@
 ---
 title: Get Involved
-date: 2016-07-28T23:00:00.000Z
-published: "true"
+date: {}
+published: true
 layout: default
 permalink: /get-involved/
 ---
@@ -38,4 +38,4 @@ Maybe you have an idea for a way you could get involved in the project but it do
 
 These are just a few ideas for ways you could get involved in your community – but we’d welcome any other ideas you might have.
 
-{% include box.html title="Get in touch" text="?????" buttontext="Contact us" url="/contact/" %}
+{% include box.html title="Get in touch" text="If you have an idea for a community project in one of our target areas, or you would like to find out more about Community Capacity Building, then please get in touch." buttontext="Contact us" url="/contact/" %}
