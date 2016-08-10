@@ -1,6 +1,6 @@
 ---
 title: Thornton Stroke and Disability Club
-summary: CCB creating new services to support health and wellbeing initiatives.
+summary: Creating new services to support health and wellbeing initiatives.
 published: true
 layout: default
 category: loughborough
@@ -12,9 +12,9 @@ date: '2016-08-05 16:25 +0100'
 
 ### What is/was the problem? 
 
-The villages of Bagworth and Thornton have a high percentage of elderly people and social isolation is an issue that was identified by CCB volunteers. Social isolation is particularly an issue for people who have suffered a stroke or have a disability. 
+CCB volunteers identified that the villages of Bagworth and Thornton have a high percentage of elderly people and social isolation. Social isolation is a particular issue for people who have suffered a stroke or have a disability.
 
-Sharon, who lives in Thornton commented on the gap in services in the area: 
+Sharon, who lives in Thornton, commented on the gap in services in the area: 
 
 > There isn’t a club or a service to support elderly people or people with a disability in Thornton. In particular, there isn’t a service for people who have been affected by stroke and their carers.
 
