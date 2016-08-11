@@ -3,7 +3,7 @@ title: Coalville & Greenhill
 layout: location
 permalink: /coalville-greenhill/
 category: coalville-greenhill
-summary: 'True to our roots, we are a friendly and diverse group at AALGS.'
+summary: Test.
 published: true
 ---
 
