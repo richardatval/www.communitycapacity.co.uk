@@ -3,11 +3,9 @@ title: Loughborough
 layout: location
 permalink: /loughborough/
 category: loughborough
-summary: 'True to our roots, we are a friendly and diverse group at AALGS.'
+summary: We're helping people in Loughborough make positive change possible.
 published: true
 ---
-
-### What are the challenges faced in the local community? 
 
 Local people have come forward to tell us that they would like to take some action to deal with several issues in the local area:
 
@@ -27,6 +25,4 @@ We have been working with local residents to find out how they think we could al
 
 ### Be a part of change in your community
 
-If like [Name] you’d like to make your community that little bit brighter, we’re here to help. 
-
-Get involved [link to get involved section]
+If you’d like to make your community that little bit brighter, we’re here to help. [Contact us to get started.](http://www.communitycapacity.co.uk/contact/)
