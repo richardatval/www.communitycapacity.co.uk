@@ -3,7 +3,7 @@ title: Coalville & Greenhill
 layout: location
 permalink: /coalville-greenhill/
 category: coalville-greenhill
-summary: Test.
+summary: We're helping people in Coalville and Greenhill make positive change possible.
 published: true
 ---
 
