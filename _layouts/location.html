@@ -23,7 +23,7 @@
 			{% for post in site.posts %}{% if post.category contains page.category %}
 			<div class="teaser-wrapper">
 				<div class="teaser">
-					<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.primary-image }}"></a>
+					<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.thumbnail-image }}"></a>
 					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 					<div class="content">
 						{% if post.summary == null %}

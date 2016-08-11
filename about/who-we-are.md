@@ -1,6 +1,6 @@
 ---
 title: Who we are
-layout: no-sidebars
+layout: default
 summary: >-
   The Community Capacity Building (CCB) project is a new community development
   project that focuses on creating new and exciting projects that are led and
@@ -24,9 +24,9 @@ As part of this work we look into the assets available to each community, such a
 
 We are currently working in 4 target areas in Leicestershire:
 
-* Hastings and Lemyngton wards in Loughborough
-* Coalville
-* South Wigston and Wigston Magna
-* Measham
+* [Hastings and Lemyngton wards in Loughborough](/loughborough/)
+* [Coalville](/coalville-greenhill/)
+* [South Wigston and Wigston Magna](/wigston/)
+* [Measham](/measham/)
 
 {% include box.html title="Get Started" text="We’re interested in hearing any ideas for community projects, both large and small. If you have an idea for a community project in one of our target areas then please get in touch." buttontext="Find out more" url="/get-involved/" %}

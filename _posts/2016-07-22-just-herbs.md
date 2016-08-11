@@ -4,7 +4,7 @@ summary: We’re working with a local resident to run a project to grow herbs in
 published: true
 layout: default
 category: loughborough
-thumbnail-image: /img/just-herbs.jpg
+thumbnail-image: /img/thumbnails/just-herbs.jpg
 ---
 
 ![Just Herbs Group](/img/just-herbs.jpg)
@@ -28,5 +28,3 @@ These sessions are also an opportunity for people in the community to meet up an
 ### Be a part of change in your community
 
 If like Parnima you’d like to make your community that little bit brighter, we’re here to help.
-
-{% include box.html title="Get involved" buttontext="Get Involved" text="Could you help us to growherbs in the area?" url="/get-involved" class="box-amber"  %}

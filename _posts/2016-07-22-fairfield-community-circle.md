@@ -4,7 +4,7 @@ summary: We’re working with local residents to organise more community activit
 published: true
 layout: default
 category: wigston
-thumbnail-image: /img/fairfield-community.jpg
+thumbnail-image: /img/thumbnails/fairfield-community.jpg
 ---
 
 ![IMAGE ALT TEXT HERE]({{ page.thumbnail-image }})

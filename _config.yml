@@ -74,6 +74,36 @@ prose:
     - 'favicon.ico'
   media: img
   metadata:
+    _pages:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: false
+      - name: "summary"
+        field:
+          label: "Summary"
+          element: "textarea"
+          value: null
+      - name: "layout"
+        field:
+          label: "Layout"
+          element: "select"
+          value: "default"
+          options:
+            - name: 'Default'
+              value: 'default'
+            - name: 'No Sidebars'
+              value: 'no-sidebars'
     _posts:
       - name: "title"
         field:
@@ -94,7 +124,7 @@ prose:
           label: "Summary"
           element: "textarea"
           value: null
-      - name: "primary-image"
+      - name: "thumbnail-image"
         field:
           label: "Thumbnail Image"
           element: "text"

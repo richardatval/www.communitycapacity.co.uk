@@ -4,7 +4,7 @@ summary: We’re teaming up with local services to ensure that people in Coalvil
 layout: default
 published: true
 category: coalville-greenhill
-thumbnail-image: /img/coalville-friendship-group.jpg
+thumbnail-image: /img/thumbnails/coalville-friendship-group.jpg
 ---
 
 ![Members of Coalville Friendship Group](/img/coalville-friendship-group.jpg)

@@ -4,7 +4,7 @@ summary: We’re teaming up with local services to ensure that people in Coalvil
 layout: default
 published: true
 category: coalville-greenhill
-thumbnail-image: /img/case-study.jpg
+thumbnail-image: /img/thumbnails/case-study.jpg
 ---
 
 ![Picture of Houses](/img/case-study.jpg)

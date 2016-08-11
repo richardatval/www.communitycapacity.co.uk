@@ -4,7 +4,7 @@ summary: We’re helping residents to organise recycling and upcycling of old fu
 published: true
 layout: default
 category: loughborough
-thumbnail-image: /img/case-study.jpg
+thumbnail-image: /img/thumbnails/case-study.jpg
 ---
 
 ![Picture of Houses](/img/case-study.jpg)

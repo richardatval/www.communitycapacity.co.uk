@@ -14,6 +14,7 @@
 				</article>
 			</section>
 			<aside id="sidebar-second">
+				{% include box.html title="Get started" text="We're here to help make your idea a reality." buttontext="Learn more" url="/get-involved/"%}
 				{% if page.location %}
 				{% include googlemap.html location = page.location %}
 				{% endif %}
