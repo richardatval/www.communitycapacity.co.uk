@@ -6,7 +6,6 @@ category: coalville-greenhill
 summary: 'True to our roots, we are a friendly and diverse group at AALGS.'
 published: true
 ---
-### What are the challenges faced in the local community?
 
 Some of the major issues that some local people have told us they would like to do something about are: 
 
