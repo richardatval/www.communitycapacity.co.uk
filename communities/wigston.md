@@ -3,7 +3,7 @@ title: Wigston
 layout: location
 category: wigston
 permalink: /wigston/
-summary: 'True to our roots, we are a friendly and diverse group at AALGS.'
+summary: We're helping people in Wigston make positive change possible.
 published: true
 ---
 
