@@ -26,7 +26,7 @@ $(document).ready(function() {
 			$('#js-search-toggle').toggleClass('active');
 		});
 
-//Facebook Events Feed
+//Facebook Events Feed - callback string switches to JSONP mode for ie9
 
 $.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=id,name,place,timezone,start_time&access_token=965566403542200|BVqedniABbAMHxMlDJ17Bym4HSw&since=now&callback=?", function( data ) {
   var items = [];

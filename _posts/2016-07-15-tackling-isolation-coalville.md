@@ -31,7 +31,4 @@ Mel explained the difference the project is having saying:
 
 > I see this group as the nucleus for other groups which may form from people making friends maybe with others with similar interests.
 
-{% include box.html title="Be a part of change in your community" text="If like Mel you’d like to make your community that little bit brighter, we’re here to help." buttontext="Get Involved" url="/get-involved" class="box-amber"  %}
-
-
- 
+{% include box.html title="Be a part of change in your community" text="If like Mel you’d like to make your community that little bit brighter, we’re here to help." buttontext="Get Involved" url="/get-involved" class="box-amber" %}

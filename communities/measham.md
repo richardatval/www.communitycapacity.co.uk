@@ -24,13 +24,6 @@ If you would like to do something for your community, then we would love to hear
 
 #### Be a part of change in your community
 
-If like [Name] you’d like to make your community that little bit brighter, we’re here to help. 
+If you’d like to make your community that little bit better, we’re here to help.
 
-Get involved [link to get involved section]
-
-* estate by running or helping out with an activity group?
-* Could you help us coordinate activities in the area by becoming part of a new group?
-* Would you like to take part in more community activities in the area yourself?
-* Could you help us gain some funding to finance more activities in the area?
-* Could you help us promote the project and some of the activities to local residents?
-* Could you share a skill, hobby or interest with local residents in Measham 
+{% include button.html buttontext="Get in touch" url="/contact/" %}

@@ -5,7 +5,7 @@
 		a.button {
 			background: #fff;
 			color: $green;
-			&:hover {
+			&:hover, &:focus {
 				background: $light-gray;
 			}
 		}
@@ -20,10 +20,16 @@
 			a {
 				color: $green;
 				font-size: 1.1em;
+				&:hover, &:focus {
+					text-decoration: underline;
+				}
 			}
 		}
 		a {
 			color: $dark-gray;
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
 		}
 		.teaser {
 			@include media($mobile) {

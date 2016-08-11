@@ -26,4 +26,6 @@ We have been working with local residents to find out how they think we could al
 
 ### Be a part of change in your community
 
-If you’d like to make your community that little bit brighter, we’re here to help. [Contact us to get started.](http://www.communitycapacity.co.uk/contact/)
+If you’d like to make your community that little bit brighter, we’re here to help. 
+
+{% include button.html buttontext="Get in touch" url="/contact/" %}

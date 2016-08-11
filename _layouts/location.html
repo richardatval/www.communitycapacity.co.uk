@@ -10,13 +10,21 @@
 				<h1 class="title">{{ page.title }}</h1>
 				<section id="content">
 					<article>
-						<h4>{{ page.summary}}</h4>
+						<h3>{{ page.summary}}</h3>
 						{{ content }}
 					</article>
 				</section>
 			</div>
 		</div>
 	</main>
+	
+	{% for post in site.posts %}{% if post.category contains page.category %}
+	{% assign postsavailable = true %}
+	{% break %}
+	{% endif %}
+	{% endfor %}
+	
+	{% if postsavailable == true %}
 	<section class="band" id="projects">
 		<div class="container">
 			<h2>Projects in {{ page.title }}</h2>
@@ -38,6 +46,7 @@
 			{% endfor %}
 		</div>
 	</section>
+	{% endif %}
 </div>
 {% include footer.html %}
 {% include closure.html %}
