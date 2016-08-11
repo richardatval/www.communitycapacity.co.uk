@@ -1,6 +1,6 @@
 ---
 title: Who we are
-layout: default
+layout: who-we-are
 summary: >-
   The Community Capacity Building (CCB) project is a new community development
   project that focuses on creating new and exciting projects that are led and
@@ -8,6 +8,8 @@ summary: >-
 permalink: /who-we-are/
 published: true
 ---
+
+![Police and members of the community](/img/police-and-community.jpg)
 
 Community Capacity Building (CCB) focuses on actions that are positive, creative and inclusive for the whole community. Instead of focusing on what is missing or causing problems, CCB concentrates on what is possible. We work with community members to improve the area they live in by supporting them to kick-start new projects and activities and develop their ideas into long-term projects.
 
