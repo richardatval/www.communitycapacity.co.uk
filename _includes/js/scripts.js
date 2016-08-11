@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 //Facebook Events Feed
 
-$.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=id,name,place,timezone,start_time&access_token=965566403542200|BVqedniABbAMHxMlDJ17Bym4HSw&since=now", function( data ) {
+$.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=id,name,place,timezone,start_time&access_token=965566403542200|BVqedniABbAMHxMlDJ17Bym4HSw&since=now&callback=?", function( data ) {
   var items = [];
   for (var i in data["data"]) {
   var time = moment(data["data"][i]["start_time"]);
