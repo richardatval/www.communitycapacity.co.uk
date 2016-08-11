@@ -5,7 +5,7 @@ summary: Privacy and cookie information for the Aylestone Allotments website
 permalink: /privacy/
 scrollheadings:
   - title: "Overview"
-  - title: "What we collect's"
+  - title: "What we collect"
   - title: "What information do we gather"
   - title: "Security"
   - title: "How we use cookies"
@@ -19,9 +19,9 @@ This privacy policy sets out how Voluntary Action LeicesterShire uses and protec
 
 Voluntary Action LeicesterShire is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, it will only be used in accordance with this privacy statement.
 
-Voluntary Action LeicesterShire may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 28 January 2015.
+Voluntary Action LeicesterShire may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 11 August 2016.
 
-### What we collect's
+### What we collect
 
 We may collect the following information:
 
@@ -60,7 +60,7 @@ List of the main cookies used by the Voluntary Action LeicesterShire website:
 
 #### Google Analytics Tracking
 
-    _utma
+   _utma
    _utmb
    _utmc
    _utmz
@@ -68,28 +68,6 @@ List of the main cookies used by the Voluntary Action LeicesterShire website:
 These cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.
 
 Visit Google for more information
-
-#### Javascript settings
-
-    has_js
-
-Lets the website know whether javascript is enabled on this device.
-
-#### Session Cookie
-
-    e.g. SESS41abf1b6767311d0da8c09f9779b365d
-
-A unique ID that allows the site to pass information between pages.
-
-#### Display preferences
-
-Drupal.tableDrag.showWeight
-Stores display preferences for the site.
-
-#### Cookie Control
-
-voluntary-action-leicestershire_cookiecontrol
-Holds settings for the cookie warning popup.
 
 #### YouTube cookies
 
@@ -115,4 +93,3 @@ Leicester
 LE1 5SN
 
 If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
-

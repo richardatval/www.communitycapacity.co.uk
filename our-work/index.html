@@ -7,7 +7,7 @@ summary: Latest news from the Community Capacity Building Society.
 {% for post in paginator.posts %}
 <div class="teaser-wrapper">
 	<div class="teaser">
- <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.primary-image }}"></a>
+ <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.thumbnail-image }}"></a>
   <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
   <div class="content">
 	{% if post.summary == null %}

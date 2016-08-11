@@ -4,7 +4,7 @@ summary: Creating new services to support health and wellbeing initiatives.
 published: true
 layout: default
 category: loughborough
-primary-image: /img/stroke-disability.jpg
+thumbnail-image: /img/stroke-disability.jpg
 date: '2016-08-05 16:25 +0100'
 ---
 

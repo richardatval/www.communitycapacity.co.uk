@@ -4,10 +4,10 @@ summary: We’re working with local residents to organise more community activit
 published: true
 layout: default
 category: wigston
-primary-image: /img/fairfield-community.jpg
+thumbnail-image: /img/fairfield-community.jpg
 ---
 
-![IMAGE ALT TEXT HERE]({{ page.primary-image }})
+![IMAGE ALT TEXT HERE]({{ page.thumbnail-image }})
 
 The Fairfield estate in South Wigston is on the edge of South Wigston and has an aging population that can struggle to get out and about.
 

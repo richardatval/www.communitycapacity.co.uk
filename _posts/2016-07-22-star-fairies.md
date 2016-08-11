@@ -6,7 +6,7 @@ summary: >-
 published: true
 layout: default
 category: loughborough
-primary-image: /img/case-study.jpg
+thumbnail-image: /img/case-study.jpg
 ---
 
 ![Picture of Houses](/img/case-study.jpg)

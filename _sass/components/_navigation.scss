@@ -26,12 +26,12 @@ header.navigation {
 				background-size: 8px 21px;
 				padding-right: 16px;
 				background-position: right center;
-				background-image: url('#{"" + $image-directory}/facebook-icon.png');
+				background-image: url('#{"" + $image-directory}/ui/facebook-icon.png');
 				&:hover {
 					@include transition(all 0.1s ease-in-out);
 					color: $amber;
 					text-decoration: none;
-					background-image: url('#{"" + $image-directory}/facebook-icon-hover.png');
+					background-image: url('#{"" + $image-directory}/ui/facebook-icon-hover.png');
 				}
 			}
 		}
@@ -382,11 +382,11 @@ a.logo {
 	text-indent: -99999px;
 	@include transition(all 0.1s ease-in-out);
 	@include logoresizer($logo-image-width, $logo-image-height);
-	background-image:url('#{"" + $image-directory}/logo.png');
+	background-image:url('#{"" + $image-directory}/ui/logo.png');
 }
 
 .navigation-menu-button {
-	background-image: url('#{"" + $image-directory}/navigation-button.png');
+	background-image: url('#{"" + $image-directory}/ui/navigation-button.png');
 	background-repeat: no-repeat;
 	background-size: 25px 25px;
 	background-position: center center;
@@ -410,7 +410,7 @@ a.logo {
 	.no-js & {
 		display: none;
 	}
-	background-image: url('#{"" + $image-directory}/search-button.png');
+	background-image: url('#{"" + $image-directory}/ui/search-button.png');
 	background-size: 25px 25px;
 	background-repeat: no-repeat;
 	background-position: center center;

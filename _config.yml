@@ -96,10 +96,10 @@ prose:
           value: null
       - name: "primary-image"
         field:
-          label: "Primary Image"
+          label: "Thumbnail Image"
           element: "text"
-          placeholder: "/img/your-image.jpg"
-          value: null
+          placeholder: "/img/thumbnails/case-study-thumbnail.jpg"
+          value: "/img/thumbnails/case-study-thumbnail.jpg"
       - name: "layout"
         field:
           label: "Layout"

@@ -4,7 +4,7 @@ summary: We’re working with a local resident to run a project to grow herbs in
 published: true
 layout: default
 category: loughborough
-primary-image: /img/just-herbs.jpg
+thumbnail-image: /img/just-herbs.jpg
 ---
 
 ![Just Herbs Group](/img/just-herbs.jpg)

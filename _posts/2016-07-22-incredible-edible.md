@@ -4,7 +4,7 @@ summary: Dig, plant and then grow fruit in community spaces around Oadby & Wigst
 published: true
 layout: default
 category: wigston
-primary-image: /img/incredible-edible.jpg
+thumbnail-image: /img/incredible-edible.jpg
 ---
 
 ![Service users from the Incredible Edible Project](/img/incredible-edible.jpg)

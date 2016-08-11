@@ -4,7 +4,7 @@ summary: We’re working with local schoolchildren, parents and community member
 published: true
 layout: default
 category: coalville-greenhill
-primary-image: /img/all-saints.jpg
+thumbnail-image: /img/all-saints.jpg
 location: "All Saints Primary School, Coalville"
 ---
 
