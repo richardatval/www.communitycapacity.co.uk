@@ -6,7 +6,6 @@ permalink: /wigston/
 summary: 'True to our roots, we are a friendly and diverse group at AALGS.'
 published: true
 ---
-### What are the challenges faced in the local community? 
 
 Local people have come forward to tell us that they would like to take some action to deal with several issues in the local area: 
 
