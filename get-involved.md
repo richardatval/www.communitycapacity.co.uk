@@ -3,7 +3,9 @@ title: Get Involved
 published: true
 layout: get-involved
 permalink: /get-involved/
-summary: There are lots of ways to get involved in the CCB project. Whatever your idea, we would love to hear from you - so don't be shy!
+summary: >-
+  There are lots of ways to get involved in the CCB project. Whatever your idea,
+  we would love to hear from you - so don't be shy!
 ---
 
 ![Friendship group](/img/friendship.jpg)
@@ -11,7 +13,7 @@ summary: There are lots of ways to get involved in the CCB project. Whatever you
 ###  Kickstart your own project
 If you have an idea for a new community project or activity you would like to take forward in one of our target areas then we’d love to hear from you. Our CCB Officer will work with you to see how we can take this idea forward. Support we can provide includes:
 
-- Helping you start a group group to take this idea forward even if your project is informal
+- Helping you start a group to take this idea forward even if your project is informal
 - Applying for funding 
 - Finding groups and volunteers who might support you
 
