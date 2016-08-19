@@ -18,10 +18,10 @@ Local people have come forward to tell us that they would like to take some acti
 
 We've been working with local residents to find out how they think we could all work together to tackle these challenges and to use the resources and skills that are available to us:
 
-* We’ve been working with local residents to start up the Good Gleaners project to upcycle and recycle old furniture and household goods to donate to vulnerable people in the community
-* We’ve been working with local residents and local partners to set up the Stair Fairies project to tidy up public space around blocks of flats in the Hastings ward
-* We’ve been working with local residents to start up IT sessions for older people at the Bangladeshi Social Association to help them access services online and stay connected with friend and family
-* We’re working with a kickstarter to develop the Just Herbs project to grow herbs in the area and help teach people about the health benefits of different herbs
+* Starting up the Good Gleaners project to upcycle and recycle old furniture and household goods to donate to vulnerable people in the community
+* Setting up the Stair Fairies project to tidy up public space around blocks of flats in the Hastings ward
+* Starting up IT sessions for older people at the Bangladeshi Social Association to help them access services online and stay connected with friend and family
+* Working with a kickstarter to develop the Just Herbs project to grow herbs in the area and help teach people about the health benefits of different herbs
 
 ### Be a part of change in your community
 
