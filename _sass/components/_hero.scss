@@ -52,8 +52,6 @@ background-size: 888px auto;
 		margin: auto 10% auto 10%;
 		min-height: 300px;
 		.hero-copy {
-			@include animation-delay(2s);
-			@include animation(scale 1.0s ease-in, slide 2.0s ease);
 			h1 {
 				font-size: 2em;
 				margin-bottom: 0.5em;
