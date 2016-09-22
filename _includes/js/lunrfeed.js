@@ -6,12 +6,10 @@ var index = lunr(function () {
 });
 {% assign count = 0 %}{% for post in site.posts %}
   {% if post.title != null %}
-index.add({
-  title: {{post.title | jsonify}},
+index.add({  title: {{post.title | jsonify}},
   content: {{post.content | strip_html | jsonify}},
   id: {{count}}
-});{% assign count = count | plus: 1 %}{% endif %}
-{% endfor %}
+});{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
 {% for page in site.pages %}
   {% if page.title != null %}
 index.add({

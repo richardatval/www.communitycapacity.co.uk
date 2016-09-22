@@ -76,32 +76,32 @@ $.getJSON( "https://graph.facebook.com/796315400483436/events/attending/?fields=
 });
 
 
-(function(jQuery) {
-	jQuery.mark = {
-		jump: function(options) {
-			var defaults = {
-				selector: 'a.scroll-on-page-link'
-			};
-			if (typeof options == 'string') {
-				defaults.selector = options;
-			}
+(function (jQuery) {
+  jQuery.mark = {
+    jump: function (options) {
+      var defaults = {
+        selector: 'a.scroll-on-page-link'
+      };
+      if (typeof options == 'string') {
+        defaults.selector = options;
+      }
 
-			options = jQuery.extend(defaults, options);
-			return jQuery(options.selector).click(function(e) {
-				var jumpobj = jQuery(this);
-				var target = jumpobj.attr('href');
-				var thespeed = 1000;
-				var offset = jQuery(target).offset().top;
-				jQuery('html,body').animate({
-					scrollTop: offset
-				}, thespeed, 'swing');
-				e.preventDefault();
-			});
-		}
-	};
+      options = jQuery.extend(defaults, options);
+      return jQuery(options.selector).click(function (e) {
+        var jumpobj = jQuery(this);
+        var target = jumpobj.attr('href');
+        var thespeed = 1000;
+        var offset = jQuery(target).offset().top;
+        jQuery('html,body').animate({
+          scrollTop: offset
+        }, thespeed, 'swing');
+        e.preventDefault();
+      });
+    }
+  };
 })(jQuery);
 
 
-jQuery(function() {
-	jQuery.mark.jump();
+jQuery(function(){  
+  jQuery.mark.jump();
 });
