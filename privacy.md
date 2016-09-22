@@ -58,16 +58,10 @@ This may prevent you from taking full advantage of the website.
 
 List of the main cookies used by the Voluntary Action LeicesterShire website:
 
+
 #### Google Analytics Tracking
 
-   _utma
-   _utmb
-   _utmc
-   _utmz
-
-These cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.
-
-Visit Google for more information
+Google Analytics cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.
 
 #### YouTube cookies
 
